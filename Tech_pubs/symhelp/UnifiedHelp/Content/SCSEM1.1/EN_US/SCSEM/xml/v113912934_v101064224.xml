@@ -1,0 +1,42 @@
+<?xml-stylesheet href="makehtml.xsl" type="text/xsl"?><section id="v113912934" revision="08312015044644" vendor="referenced"><title id="v113912935">Alert and event categories</title><para id="v113912936">Alerts and events are categorized by the type of activity or condition that triggers them. </para><table id="v113912937"><title>Table: Types of alerts and events</title><tgroup cols="2" id="v113912939"><colspec colname="col1" colnum="1" colwidth="25%"/><colspec colname="col2" colnum="2" colwidth="75%"/><thead id="v113912942"><row id="v113912943"><entry colname="col1">
+                        <para>Category</para>
+                     </entry><entry colname="col2">
+                        <para>Description</para>
+                     </entry></row></thead><tbody id="v113912944"><row id="v113912945"><entry colname="col1">
+                        <para>Security</para>
+                     </entry><entry colname="col2">
+                        <para>Security-related events that are detected by a Symantec Security Cloud agent on a device. </para>
+                        <para>For example, when a virus is detected or security features are disabled. </para>
+                     </entry></row><row id="v113912946"><entry colname="col1">
+                        <para>Licensing</para>
+                     </entry><entry colname="col2">
+                        <para>Events that relate to licensing and activation of customer accounts. </para>
+                        <para>For example, when a product trial expires or a subscription is renewed.
+                        </para>
+                     </entry></row><row id="v113912947"><entry colname="col1">
+                        <para>System</para>
+                     </entry><entry colname="col2">
+                        <para>System-specific events that are generated within Symantec Security Cloud. </para>
+                        <para>For example, when your event services are restarted.</para>
+                     </entry></row><row id="v113912948"><entry colname="col1">
+                        <para>Audit</para>
+                     </entry><entry colname="col2">
+                        <para>All events that may be relevant to audits, including many events that also fall into other categories.</para>
+                        <para>For example, when device ownership changes, a user group changes, or an OS is upgraded on a device. </para>
+                     </entry></row><row id="v113912949"><entry colname="col1">
+                        <para>Policy</para>
+                     </entry><entry colname="col2">
+                        <para>Events that relate to policy administration. </para>
+                        <para>For example, when a policy is applied to a device or gets out-of-date.</para>
+                     </entry></row><row id="v113912950"><entry colname="col1">
+                        <para>User Behavior (Alert only)</para>
+                     </entry><entry colname="col2">
+                        <para>Events that are associated with a specific user and indicate a pattern of high-risk behavior, whether intentional or unintentional.</para>
+                        <para>For example, opening untrusted links in emails or social media, drive-by downloads, or insider threats. </para>
+                     </entry></row></tbody></tgroup></table><para id="v113912951">
+            <xref xreflabel="Understanding alerts" linkend="v105398966" role="linkmoreinfo"/>
+         </para><para id="v113912953">
+            See <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v109377161_v101064224" target="basefrm" title="Understanding events">Understanding events</a>
+         </para><para id="v113912955">
+            <xref xreflabel="Severity levels of alerts and events " linkend="v112562035" role="linkmoreinfo"/>
+         </para><div class="moreinfo"><p class="title">More Information</p><p><a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v105398966_v101064224" target="basefrm" title="Understanding alerts">Understanding alerts</a></p><p><a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v112562035_v101064224" target="basefrm" title="Severity levels of alerts and events">Severity levels of alerts and events</a></p></div><meta name="ProdID" value="SCSEM"/><meta name="build_date" date="09-23-2015, 5:51:08"/><meta name="shortproductname" value=""/></section>

@@ -1,0 +1,10 @@
+<?xml-stylesheet href="makehtml.xsl" type="text/xsl"?><section id="v106568325" revision="09222015235947" vendor="referenced"><title id="v106568326">Viewing OS distribution data<token>RD_about_OS_widget</token>
+         </title><para id="v110168626">The <guilabel moreinfo="none">OS Distribution</guilabel> widget shows you which operating systems the devices in your environment use and how they are distributed across all devices. The inner circle of the chart represents the OS type, and the outer circle represents the OS version. You can drill down to get more information about the devices that use a specific operating system or version. </para><para id="v110168631">
+            <xref xreflabel="Checking device status" linkend="v106568322" role="linkmoreinfo"/>
+         </para><para id="v110168633">
+            <xref xreflabel="Tracking threat activity" linkend="v110168610" role="linkmoreinfo"/>
+         </para><para id="v110303841">
+            See <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v107003798_v101064224" target="basefrm" title="Exporting data">Exporting data</a>
+         </para><para id="v110303843">
+            <xref xreflabel="Monitoring your environment" linkend="v105330222" role="linkmoreinfo"/>
+         </para><div class="moreinfo"><p class="title">More Information</p><p><a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v106568322_v101064224" target="basefrm" title="Checking device status">Checking device status</a></p><p><a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v110168610_v101064224" target="basefrm" title="Tracking threat activity">Tracking threat activity</a></p><p><a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v105330222_v101064224" target="basefrm" title="Monitoring your environment">Monitoring your environment</a></p></div><meta name="ProdID" value="SCSEM"/><meta name="build_date" date="09-23-2015, 5:51:08"/><meta name="shortproductname" value=""/></section>

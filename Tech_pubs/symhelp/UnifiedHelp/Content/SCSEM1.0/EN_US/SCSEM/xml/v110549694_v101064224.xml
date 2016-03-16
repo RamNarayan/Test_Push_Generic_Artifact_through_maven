@@ -1,0 +1,42 @@
+<?xml-stylesheet href="makehtml.xsl" type="text/xsl"?><section id="v110549694" revision="08202015225746" vendor="referenced"><title id="v110549695">Policy overview</title><para id="v110549697">In Symantec Security Cloud, policies define the rules that govern the security of enrolled devices in your organization. Policies are always assigned to groups, and all group members inherit the assigned policy settings. While creating or editing a policy, you can configure the policy settings based on the needs of each group. Exactly how the policy settings are applied can vary depending on the operating system of a device.</para><para id="v110659362">This flexibility makes it easier to manage devices. You add a user to a group, and the user can self-enroll multiple devices of different types. All devices the user enrolls are governed by the same policy, which ensures that all the devices are protected with an equally strong policy. If you move a user to a different group, the policies that are assigned to the new group are applied.</para><para id="v110609919">
+            
+         </para><para id="v110661960">
+            
+         </para><bridgehead id="v110998713">Tasks that are common to all policies</bridgehead><para id="v110659364">Your policies define how Symantec technologies protect users and devices from security threats. You can manage your policies either from the <guilabel moreinfo="none">Policies</guilabel> page or from  the <guilabel moreinfo="none">Policy Details</guilabel> page.</para><table id="v110998714"><title>Table: Tasks common to all policies</title><tgroup cols="2" id="v110998716"><colspec colname="col1" colnum="1" colwidth="50%"/><colspec colname="col2" colnum="2" colwidth="50%"/><thead id="v110998719"><row id="v110998720"><entry colname="col1">
+                        <para>Task</para>
+                     </entry><entry colname="col2">
+                        <para>Description</para>
+                     </entry></row></thead><tbody id="v110998721"><row id="v110998722"><entry colname="col1">
+                        <para>Create a policy</para>
+                     </entry><entry colname="col2">
+                        <para>If an existing policy doesn't meet your needs, you can create a new one.</para>
+                        <para id="v102314781">
+                           See <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v110549649_v101064224" target="basefrm" title="Understanding security policies">Understanding security policies</a>
+                        </para>
+
+                        <para id="v102314783">
+                           See <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v110549653_v101064224" target="basefrm" title="Managing access to company email">Managing access to company email</a>
+                        </para>
+
+                     </entry></row><row id="v110998723"><entry colname="col1">
+                        <para>Edit a policy</para>
+                     </entry><entry colname="col2">
+                        <para>If you want to change the settings of an existing policy, you can edit it. The only exception is the Symantec recommended security policy, which cannot be modified. Your changes go into effect as soon as you save them.</para>
+                     </entry></row><row id="v110998724"><entry colname="col1">
+                        <para>Apply a policy</para>
+                     </entry><entry colname="col2">
+                        <para>To use a policy, you must apply it to one or more groups.</para>
+                     </entry></row><row id="v110998725"><entry colname="col1">
+                        <para>Duplicate a policy</para>
+                     </entry><entry colname="col2">
+                        <para>If your policy requirements are similar to an existing policy, you may want to duplicate the existing policy to use as the basis for the new policy.</para>
+                        <para>You can customize the copied settings to meet your requirements and save the policy with a new name.</para>
+                     </entry></row><row id="v110998726"><entry colname="col1">
+                        <para>Delete a policy</para>
+                     </entry><entry colname="col2">
+                        <para>If an existing policy is no longer in use, you can delete it to keep your policy list clean. You can delete a policy only if that policy is not assigned to a group. </para>
+                     </entry></row></tbody></tgroup></table><para id="v102445410">
+            <xref xreflabel="Enrolling devices " linkend="v113799200" role="linkmoreinfo"/>
+         </para><para id="v107096383">
+            <xref xreflabel="Device status" linkend="v107096381" role="linkmoreinfo"/>
+         </para><div class="moreinfo"><p class="title">More Information</p><p><a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v113799200_v101064224" target="basefrm" title="Enrolling devices">Enrolling devices</a></p><p><a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v107096381_v101064224" target="basefrm" title="Device status">Device status</a></p></div><meta name="ProdID" value="SCSEM"/><meta name="build_date" date="09-23-2015, 5:51:08"/><meta name="shortproductname" value=""/></section>

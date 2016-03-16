@@ -1,0 +1,52 @@
+<filters>
+   <filter id="product" value="Product">
+      <filter_value>
+         <filter_string>SCSEM</filter_string>
+         <localized_string>Symantec Security Cloud | Unified Endpoint Protection - BETA</localized_string>
+      </filter_value>
+   </filter>
+   <filter id="subject" value="Subject">
+      <filter_value>
+         <filter_string>GETTING_STARTED</filter_string>
+         <localized_string>Get Started</localized_string>
+         <description>Essential steps to get up and running.</description>
+         <imagerefid>2</imagerefid>
+      </filter_value>
+      <filter_value>
+         <filter_string>TUTORIALS</filter_string>
+         <localized_string>Video Tutorials</localized_string>
+         <description>Visual overviews of key tasks.</description>
+         <imagerefid>1</imagerefid>
+      </filter_value>
+      <filter_value>
+         <filter_string>DASHBOARD</filter_string>
+         <localized_string>Dashboard</localized_string>
+         <description>Get an overview of all devices at a glance and identify problems early.</description>
+         <imagerefid>3</imagerefid>
+      </filter_value>
+      <filter_value>
+         <filter_string>ALERTS_EVENTS</filter_string>
+         <localized_string>Alerts and Events</localized_string>
+         <description>Learn about alerts, events, and notifications for device health diagnosis.</description>
+         <imagerefid>4</imagerefid>
+      </filter_value>
+      <filter_value>
+         <filter_string>GROUPS_USERS_DEVICES</filter_string>
+         <localized_string>Groups, Users, and Devices</localized_string>
+         <description>A user-centric model makes it easy to manage device security.</description>
+         <imagerefid>5</imagerefid>
+      </filter_value>
+      <filter_value>
+         <filter_string>POLICIES</filter_string>
+         <localized_string>Policies</localized_string>
+         <description>Secure and manage devices with policy-based enforcement.</description>
+         <imagerefid>6</imagerefid>
+      </filter_value>
+      <filter_value>
+         <filter_string>ACCOUNT_SETTINGS</filter_string>
+         <localized_string>Settings</localized_string>
+         <description>Manage subscriptions, certificates, installation packages, and more.</description>
+         <imagerefid>7</imagerefid>
+      </filter_value>
+   </filter>
+</filters>

@@ -1,0 +1,62 @@
+<?xml-stylesheet href="makehtml.xsl" type="text/xsl"?><section id="v109539687" revision="09152015025900" vendor="referenced"><title id="v109539688">Quick-start checklist</title><para id="v113039348">Complete the following tasks to set up your company environment. </para><bridgehead id="v112741896">1. Evaluate the security needs of your users</bridgehead><para id="v112741897">Security policies are always applied to groups, and all group members inherit the policy settings. Your Symantec Security Cloud account comes with a default security policy that is applied to the default group. This policy may be all you need to meet your security requirements.</para><para id="v113039358">
+            See <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v112648451_v101064224" target="basefrm" title="How protection features works in Symantec Security Cloud">How protection features works in Symantec Security Cloud</a>
+         </para><para id="v113475923">If some of your users have different security needs, you can create additional policies and groups, as described in the next task.</para><bridgehead id="v113039424">2. Add policies and groups as needed</bridgehead><para id="v113476090">Do all users have the same security needs?</para><informaltable id="v113476091"><tgroup cols="2" id="v113476092"><colspec colname="col1" colnum="1" colwidth="16.666666666666664%"/><colspec colname="col2" colnum="2" colwidth="83.33333333333334%"/><tbody id="v113476095"><row id="v113476096"><entry colname="col1">
+                        <para>Yes</para>
+                     </entry><entry colname="col2">
+                        <para>Go to the next task.</para>
+                     </entry></row><row id="v113476097"><entry colname="col1">
+                        <para>No</para>
+                     </entry><entry colname="col2">
+                        <orderedlist inheritnum="ignore" continuation="restarts"><listitem id="v113039428"><para id="v113039429">Create additional policies.</para><para>
+                                 See <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v110549650_v101064224" target="basefrm" title="Configuring security policy settings">Configuring security policy settings</a>
+                              </para></listitem><listitem id="v113039430"><para id="v113039431">Create additional groups and apply the policies to them.</para><para>
+                                 See <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v102766295_v101064224" target="basefrm" title="How groups manage policy flow in Symantec Security Cloud">How groups manage policy flow in Symantec Security Cloud</a>
+                              </para></listitem></orderedlist>
+                     </entry></row></tbody></tgroup></informaltable><bridgehead id="v113789386">3. Create an email access policy as needed</bridgehead><para id="v113789387">Do you want your users to access company email on their devices?</para><informaltable id="v113789388"><tgroup cols="2" id="v113789389"><colspec colname="col1" colnum="1" colwidth="16.666666666666664%"/><colspec colname="col2" colnum="2" colwidth="83.33333333333334%"/><tbody id="v113789392"><row id="v113789393"><entry colname="col1">
+                        <para>Yes</para>
+                     </entry><entry colname="col2">
+                        <orderedlist inheritnum="ignore" continuation="restarts"><listitem><para>Create an email access policy.</para><para>
+                                 See <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v110549653_v101064224" target="basefrm" title="Managing access to company email">Managing access to company email</a>
+                              </para></listitem><listitem><para>Apply the policy to all applicable groups.</para></listitem></orderedlist>
+                     </entry></row><row id="v113789395"><entry colname="col1">
+                        <para>No</para>
+                     </entry><entry colname="col2">
+                        <para>Go to the next task.</para>
+                     </entry></row></tbody></tgroup></informaltable><bridgehead id="v112741905">4. Configure support for Apple device management</bridgehead><para id="v113038004">To manage OS X or iOS devices, Apple requires you to create an APNs certificate.</para><para id="v113039435">
+            See <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v99978989_v101064224" target="basefrm" title="Apple certificate management">Apple certificate management</a>
+         </para><note id="v113789396"><para id="v113789397">Be sure to configure support for Apple devices before you add users.</para></note><bridgehead id="v112741913">5. Create user accounts</bridgehead><para id="v113038008">When you create user accounts for your employees, they can enroll their own devices in Symantec Security Cloud. You can create users manually, or you can import users from the Microsoft Azure Active Directory cloud service. </para><itemizedlist id="v114870022"><title id="v114870023">If you plan to integrate with Azure Active Directory, you have to use the following workarounds, which apply to the initial Beta release only:</title><listitem id="v114870024"><para id="v114870025">Do not create any end-user accounts before you integrate, or those users will not be able to authenticate successfully.</para></listitem><listitem id="v114870026"><para id="v114870027">Do create additional administrator accounts manually, before you integrate. You can't change their role to administrator after the first sync.</para></listitem><listitem id="v114870028"><para id="v114870029">After integration, you and all other administrators must bookmark the following URL and use it to sign in:  </para><para id="v114870030">
+                  <ulink url="If you plan to integrate with Azure Active Directory, be sure to set up that integration before you create users. Once you integrate with Active Directory, all synched users are authenticated against Active Directory. All users who already existed, however, will not be able to log in. This includes the initial company administrator. To work around this issue, bookmark this page and use it to sign in: https://securitycloud.symantec.com/sso/login?admin=1. This issue will be addressed in the next beta.">https://securitycloud.symantec.com/sso/login?admin=1</ulink>
+               </para></listitem></itemizedlist><para id="v113476098">Do you want to sync users from your directory service?</para><informaltable id="v113476099"><tgroup cols="2" id="v113476100"><colspec colname="col1" colnum="1" colwidth="16.666666666666664%"/><colspec colname="col2" colnum="2" colwidth="83.33333333333334%"/><tbody id="v113476103"><row id="v113476104"><entry colname="col1">
+                        <para>Yes</para>
+                     </entry><entry colname="col2">
+                        <orderedlist inheritnum="ignore" continuation="restarts"><listitem><para>Create administrator accounts manually, before you sync. </para><para>
+                                 See <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v105202013_v101064224" target="basefrm" title="Creating user accounts">Creating user accounts</a>
+                              </para></listitem><listitem><para id="v113039436">Set up the Azure AD Sync service.</para><para>
+                                 See <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v111854307_v101064224" target="basefrm" title="Connecting with Azure Active Directory Sync">Connecting with Azure Active Directory Sync</a>
+                              </para><para>All imported users are added to the default group and assigned the User role.</para></listitem><listitem><para>If you created multiple groups, move users to other groups as needed.</para></listitem></orderedlist>
+                     </entry></row><row id="v113476105"><entry colname="col1">
+                        <para>No</para>
+                     </entry><entry colname="col2">
+                        <para>Create users manually.</para>
+                        <para>
+                           See <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v105202013_v101064224" target="basefrm" title="Creating user accounts">Creating user accounts</a>
+                        </para>
+                     </entry></row></tbody></tgroup></informaltable><bridgehead id="v112741922">6. Enroll devices</bridgehead><para id="v113039359">After user accounts are created, users receive an email that invites them to set their password and enroll their devices. As an administrator, you can enroll your own devices, devices that you prepare for other users, and servers. The only way to enroll Windows servers is with a server installation package.</para><note id="v114870031"><para id="v114870032">Servers are not supported in the initial Beta release.</para></note><para id="v113789398">
+            See <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v106548504_v101064224" target="basefrm" title="Supported devices and browsers">Supported devices and browsers</a>
+         </para><informaltable id="v113476106"><tgroup cols="2" id="v113476107"><colspec colname="col1" colnum="1" colwidth="25%"/><colspec colname="col2" colnum="2" colwidth="75%"/><tbody id="v113476110"><row id="v113476111"><entry colname="col1">
+                        <para>To self-enroll a device</para>
+                     </entry><entry colname="col2">
+                        <para>Sign in to Symantec Security Cloud from the device you want to enroll, and follow the on-screen instructions.</para>
+                        <para>
+                           See <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v113799200_v101064224" target="basefrm" title="Enrolling devices">Enrolling devices</a>
+                        </para>
+                     </entry></row><row id="v113476112"><entry colname="col1">
+                        <para>To enroll multiple Windows devices</para>
+                     </entry><entry colname="col2">
+                        <para id="v113039449">Create a Windows installation package.</para>
+                        <para id="v113476330">
+                           See <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v109029098_v101064224" target="basefrm" title="Deploying a Windows installation package">Deploying a Windows installation package</a>
+                        </para>
+                     </entry></row></tbody></tgroup></informaltable><para id="v113039452">As devices complete the enrollment process, data starts to appear on the dashboard. You can go to the dashboard now and start monitoring your environment.</para><para id="v113475922">
+            <xref xreflabel="Release Notes for Symantec Security Cloud Beta" linkend="v113454774" role="linkmoreinfo"/>
+         </para><div class="moreinfo"><p class="title">More Information</p><p><a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v113454774_v101064224" target="basefrm" title="Release Notes for Symantec Security Cloud Beta">Release Notes for Symantec Security Cloud Beta</a></p></div><meta name="ProdID" value="SCSEM"/><meta name="build_date" date="09-23-2015, 5:51:08"/><meta name="shortproductname" value=""/></section>

@@ -1,0 +1,52 @@
+<?xml-stylesheet href="makehtml.xsl" type="text/xsl"?><section id="v106548504" revision="09212015012900" vendor="referenced"><title id="v106548545">Supported devices and browsers<token>EO_supported_devices</token>
+         </title><para id="v106549181">Symantec Security Cloud supports the enrollment of phones and tablets, laptop and desktop computers, and servers.</para><para id="v106548546">
+            
+         </para><table id="v106549182"><title>Table: Supported devices and operating systems</title><tgroup cols="2" id="v106549184"><colspec colname="col1" colnum="1" colwidth="29.166666666666668%"/><colspec colname="col2" colnum="2" colwidth="70.83333333333333%"/><thead id="v106549187"><row id="v106549188"><entry colname="col1">
+                        <para>Device type</para>
+                     </entry><entry colname="col2">
+                        <para>Supported operating systems</para>
+                     </entry></row></thead><tbody id="v106549189"><row id="v106549190"><entry colname="col1">
+                        <para>Mobile devices</para>
+                     </entry><entry colname="col2">
+                        <itemizedlist><listitem><para>Android 4.2-5.1</para></listitem><listitem><para>iOS 7, 8 and 9</para></listitem></itemizedlist>
+                     </entry></row><row id="v106682308"><entry colname="col1">
+                        <para>OS X computers</para>
+                     </entry><entry colname="col2">
+                        <itemizedlist><listitem><para>OS X 10.9 and 10.10
+                              </para></listitem></itemizedlist>
+                     </entry></row><row id="v106549191"><entry colname="col1">
+                        <para>Windows computers</para>
+                     </entry><entry colname="col2">
+                        <itemizedlist id="v106548547"><listitem id="v106548553"><para id="v106548554">Windows 7</para></listitem><listitem id="v106548555"><para id="v106548556">Windows 8 and 8.1</para></listitem><listitem><para>Windows 10</para></listitem></itemizedlist>
+                     </entry></row></tbody></tgroup></table><bridgehead id="v113907029">Supported browsers</bridgehead><para id="v115107190">For enrollment, Symantec Security Cloud supports only the following web browsers.</para><table id="v115100827"><title>Table: Browser support for enrollment
+            </title><tgroup cols="2" id="v115100829"><colspec colname="col1" colnum="1" colwidth="29.166666666666668%"/><colspec colname="col02" colnum="2" colwidth="70.83333333333333%"/><thead id="v113986093"><row id="v113986094"><entry colname="col1">
+                        <para>Operating system</para>
+                     </entry><entry colname="col02">
+                        <para>Supported browser</para>
+                     </entry></row></thead><tbody id="v113986095"><row id="v113986096"><entry colname="col1">
+                        <para>Android</para>
+                     </entry><entry colname="col02">
+                        <para>Chrome</para>
+                     </entry></row><row id="v113986097"><entry colname="col1">
+                        <para>iOS</para>
+                     </entry><entry colname="col02">
+                        <para>Safari</para>
+                     </entry></row><row id="v113986098"><entry colname="col1">
+                        <para>OS X</para>
+                     </entry><entry colname="col02">
+                        <para>Safari</para>
+                     </entry></row><row id="v113986099"><entry colname="col1">
+                        <para>Windows 7</para>
+                     </entry><entry colname="col02">
+                        <para> Internet Explorer, Firefox, or Chrome</para>
+                     </entry></row><row id="v113986100"><entry colname="col1">
+                        <para>Windows 8</para>
+                     </entry><entry colname="col02">
+                        <para>Internet Explorer</para>
+                     </entry></row><row id="v113986101"><entry colname="col1">
+                        <para>Windows 10</para>
+                     </entry><entry colname="col02">
+                        <para>Edge</para>
+                     </entry></row></tbody></tgroup></table><para id="v113788547">
+            See <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v113799200_v101064224" target="basefrm" title="Enrolling devices">Enrolling devices</a>
+         </para><meta name="ProdID" value="SCSEM"/><meta name="build_date" date="09-23-2015, 5:51:08"/><meta name="shortproductname" value=""/></section>

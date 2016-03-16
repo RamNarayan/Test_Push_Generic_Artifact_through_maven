@@ -1,0 +1,44 @@
+<?xml-stylesheet href="makehtml.xsl" type="text/xsl"?><section id="v107096381" revision="08132015174226" vendor="referenced"><title id="v107096382">Device status</title><para id="v112703850">Symantec Security Cloud device status lets you know at a glance whether the devices in your network are secure, or whether there are issues that need your attention. You can view a summary of device status across your network on the dashboard. The <guilabel moreinfo="none">Compromised</guilabel> and <guilabel moreinfo="none">At Risk</guilabel> statuses are also reported as key performance indicators so that you can easily locate the source of insecure devices.</para><table id="v112703851"><title>Table: Device status in Symantec Security Cloud</title><tgroup cols="2" id="v112703853"><colspec colname="col1" colnum="1" colwidth="33.33333333333333%"/><colspec colname="col2" colnum="2" colwidth="66.66666666666667%"/><thead id="v112703856"><row id="v112703857"><entry colname="col1">
+                        <para>Device Status</para>
+                     </entry><entry colname="col2">
+                        <para>Description</para>
+                     </entry></row></thead><tbody id="v112703858"><row id="v112703859"><entry colname="col1">
+                        <para id="v112675731">Pending</para>
+                     </entry><entry colname="col2">
+                        <para>Device enrollment and security scans are in progress.</para>
+                        <note id="v113799540"><para id="v113917445">After the necessary software is installed, the status of Mac and Windows devices is set to Pending until the first scan has completed. 
+                           </para></note>
+                     </entry></row><row id="v112703860"><entry colname="col1">
+                        <para id="v106568361">Secure</para>
+
+                     </entry><entry colname="col2">
+                        <itemizedlist id="v106568363"><title>Device meets all the following criteria:</title><listitem id="v106568364"><para id="v106568365">Management is installed</para></listitem><listitem id="v106568366"><para id="v106568367">Current version of the security agent is installed (does not apply to iOS)</para></listitem><listitem id="v106568368"><para id="v106568369">Complies with its security policy</para></listitem><listitem id="v106568370"><para id="v106568371">Is not infected</para></listitem><listitem id="v106568372"><para id="v106568373">Last check-in was less than 72 hours ago</para></listitem><listitem id="v106568374"><para id="v106568375">Virus definitions are less than 72 hours old
+                              </para></listitem><listitem id="v106568376"><para id="v106568377">Security settings are enabled</para></listitem></itemizedlist>
+                     </entry></row><row id="v112703861"><entry colname="col1">
+                        <para id="v106568379">At Risk</para>
+
+                     </entry><entry colname="col2">
+                        <itemizedlist id="v106568381"><title>Device status is not "Compromised", and device meets either of the following criteria:</title><listitem id="v106568386"><para id="v106568387">Virus definitions are more than 72 hours old </para></listitem><listitem id="v106568388"><para id="v106568389">Security client is out of date (does not apply to iOS )</para></listitem></itemizedlist>
+                        <para>
+                           
+                        </para>
+                     </entry></row><row id="v112703862"><entry colname="col1">
+                        <para id="v106568393">Compromised</para>
+
+                     </entry><entry colname="col2">
+                        <para id="v106568394">The device is infected and requires immediate attention.
+                           
+                        </para>
+
+                     </entry></row><row id="v112703863"><entry colname="col1">
+                        <para>Unenrolled</para>
+                     </entry><entry colname="col2">
+                        <para>Device has been unenrolled, by either an administrator or the device owner.</para>
+                        <note><para>You can view this status only on the Devices tab. You must explicitly choose the "Unenrolled" status in the Filters drop-down.</para></note>
+                     </entry></row></tbody></tgroup></table><para id="v107003826">
+            <xref xreflabel="How protection features works in Symantec Security Cloud" linkend="v112648451" role="linkmoreinfo"/>
+         </para><para id="v113956602">
+            <xref xreflabel="Enrolling devices " linkend="v113799200" role="linkmoreinfo"/>
+         </para><para id="v107096438">
+            <xref xreflabel="How groups manage policy flow in Symantec Security Cloud" linkend="v102766295" role="linkmoreinfo"/>
+         </para><div class="moreinfo"><p class="title">More Information</p><p><a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v112648451_v101064224" target="basefrm" title="How protection features works in Symantec Security Cloud">How protection features works in Symantec Security Cloud</a></p><p><a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v113799200_v101064224" target="basefrm" title="Enrolling devices">Enrolling devices</a></p><p><a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v102766295_v101064224" target="basefrm" title="How groups manage policy flow in Symantec Security Cloud">How groups manage policy flow in Symantec Security Cloud</a></p></div><meta name="ProdID" value="SCSEM"/><meta name="build_date" date="09-23-2015, 5:51:08"/><meta name="shortproductname" value=""/></section>

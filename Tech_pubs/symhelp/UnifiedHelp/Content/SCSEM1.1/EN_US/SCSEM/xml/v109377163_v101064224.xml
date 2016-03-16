@@ -1,0 +1,13 @@
+<?xml-stylesheet href="makehtml.xsl" type="text/xsl"?><section id="v109377163" revision="09232015054654" vendor="referenced"><title id="v109477751">Alert notification rules<token>AE_notifications_home_page</token>
+         </title><para id="v109663032">You can receive automated email notifications when alerts are triggered by a preconfigured alert notification rule.  The rule specifies the conditions that trigger a particular alert, as when the number of events exceeds the threshold limit associated with the rule.</para><para id="v113922118">
+            
+            
+         </para><para id="v112555645">The <guilabel moreinfo="none">Notification Rules</guilabel> page displays a list of preconfigured alert notification rules.</para><bridgehead id="v115197561">Preconfigured alert notification rules</bridgehead><itemizedlist id="v114039685"><title id="v115197562">Available  preconfigured alert notification rule: </title><listitem id="v114039687"><para id="v114039688">User Behavior
+                  
+               </para><para id="v114039689">An alert is triggered whenever several security incidents are detected for a specific user and indicate a pattern of high-risk behavior, whether intentional or unintentional. </para></listitem></itemizedlist><para id="v109666814">
+            See <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v109630219_v101064224" target="basefrm" title="Configuring alert notifications">Configuring alert notifications</a>
+         </para><para id="v113917513">
+            <xref xreflabel="Understanding alerts" linkend="v105398966" role="linkmoreinfo"/>
+         </para><para id="v113917515">
+            <xref xreflabel="Severity levels of alerts and events " linkend="v112562035" role="linkmoreinfo"/>
+         </para><div class="moreinfo"><p class="title">More Information</p><p><a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v105398966_v101064224" target="basefrm" title="Understanding alerts">Understanding alerts</a></p><p><a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v112562035_v101064224" target="basefrm" title="Severity levels of alerts and events">Severity levels of alerts and events</a></p></div><meta name="ProdID" value="SCSEM"/><meta name="build_date" date="09-23-2015, 5:51:08"/><meta name="shortproductname" value=""/></section>

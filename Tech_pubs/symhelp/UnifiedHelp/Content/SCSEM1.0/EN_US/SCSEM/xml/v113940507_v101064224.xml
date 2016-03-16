@@ -1,0 +1,46 @@
+<?xml-stylesheet href="makehtml.xsl" type="text/xsl"?><section id="v113940507" revision="09212015222943" vendor="referenced"><title id="v113940605">Managing a device<token>PDM_device_details</token>
+         </title><para id="v113940606">If an alert lets you know about issues with an individual device, you can check the device details for specific issues and take appropriate action. If a device status is <guilabel moreinfo="none">At Risk</guilabel> or <guilabel moreinfo="none">Compromised</guilabel>, for example, you would make sure that the device has the latest virus definitions. You can also check other settings, and perform basic remediation.</para><para id="v114289996">
+            
+         </para><para id="v113940649">
+            See <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v107096381_v101064224" target="basefrm" title="Device status">Device status</a>
+         </para><para id="v113940650">
+            <xref xreflabel="Enrolling devices " linkend="v113799200" role="linkmoreinfo"/>
+         </para><note id="v113940652"><para id="v113940682">Detailed device information is not available if a device status is <guilabel moreinfo="none">Pending</guilabel>.</para><para id="v113940653">Different details are available for different device platforms. For example, information about installed applications is not available for Windows devices.</para></note><table id="v113940607"><title>Table: Basic device management
+            </title><tgroup cols="2" id="v113940609"><colspec colname="col1" colnum="1" colwidth="50%"/><colspec colname="col2" colnum="2" colwidth="50%"/><thead id="v113940612"><row id="v113940613"><entry colname="col1">
+                        <para>Task</para>
+                     </entry><entry colname="col2">
+                        <para>Description</para>
+                     </entry></row></thead><tbody id="v113940614"><row id="v113940615"><entry colname="col1">
+                        <para>Troubleshoot <guilabel moreinfo="none">At Risk</guilabel> or <guilabel moreinfo="none">Compromised</guilabel> device (Windows and Mac)</para>
+                        <para>
+                           
+                        </para>
+                     </entry><entry colname="col2">
+                        <para>
+                           See <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v113956324_v101064224" target="basefrm" title="Troubleshooting device status">Troubleshooting device status</a>
+                        </para>
+                     </entry></row><row id="v113940616"><entry colname="col1">
+                        <para>
+                           <guilabel moreinfo="none">Change User</guilabel>
+                        </para>
+                     </entry><entry colname="col2">
+                        <itemizedlist><title>You can  change user to transfer a device from:</title><listitem><para>A  user to a group</para></listitem><listitem><para>A user to another user</para></listitem><listitem><para>A device from a group to a user</para></listitem><listitem><para>A  device from a group to another group</para></listitem></itemizedlist>
+                        <note><para>Remember that a device always receives its policy from the group that it's assigned to.</para></note>
+                     </entry></row><row id="v113940617"><entry colname="col1">
+                        <para>
+                           <guilabel moreinfo="none">Unenroll</guilabel> device</para>
+                     </entry><entry colname="col2">
+                        <para>You can unenroll a company-owned or personal device if it is longer being used.</para>
+                        <note><para>Users can also unenroll their personal devices.</para></note>
+                        <para>
+                            
+                           
+                        </para>
+                        <para>
+                           
+                        </para>
+                        <para>
+                            
+                           
+                        </para>
+                     </entry></row></tbody></tgroup></table><div class="moreinfo"><p class="title">More Information</p><p><a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v113799200_v101064224" target="basefrm" title="Enrolling devices">Enrolling devices</a></p></div><meta name="ProdID" value="SCSEM"/><meta name="build_date" date="09-23-2015, 5:51:08"/><meta name="shortproductname" value=""/></section>

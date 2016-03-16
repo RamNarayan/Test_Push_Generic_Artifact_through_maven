@@ -1,0 +1,45 @@
+<?xml-stylesheet href="makehtml.xsl" type="text/xsl"?><section id="v110549650" revision="08172015024049" vendor="referenced"><title id="v110549652">Configuring security policy settings<token>PDM_security_policy_new</token>
+         </title><para id="v110549711">In Symantec Security Cloud, you can create and impose policies to protect enrolled devices based on your security requirements.</para><para id="v113988823">
+            See <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v105398458_v101064224" target="basefrm" title="Creating a group">Creating a group</a>
+         </para><para id="v113789677">
+            
+         </para><note id="v113789678"><para id="v110998906">You may want to let your users disable some features temporarily.  For example, your users may need to turn off protection temporarily while they install an application or use some applications.</para><para id="v113789680">
+               
+            </para></note><table id="v106549167"><title>Table: Security policy settings</title><tgroup cols="2" id="v106549169"><colspec colname="col1" colnum="1" colwidth="50%"/><colspec colname="col2" colnum="2" colwidth="50%"/><thead id="v106549172"><row id="v106549173"><entry colname="col1">
+                        <para>Policy Component</para>
+                     </entry><entry colname="col2">
+                        <para>Description</para>
+                     </entry></row></thead><tbody id="v106549174"><row id="v106549175"><entry colname="col1">
+                        <para>
+                           <guilabel moreinfo="none">Device Protection</guilabel>
+                        </para>
+                     </entry><entry colname="col2">
+                        <para>Optimizes user devices by protecting them from risky and low reputation files, zero-day threats, and network or browser-based malware and phishing attacks. </para>
+                        <para>
+                           See <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v105615699_v101064224" target="basefrm" title="Device protection settings">Device protection settings</a>
+                        </para>
+                     </entry></row><row id="v106549177"><entry colname="col1">
+                        <para>
+                           <guilabel moreinfo="none">Network Protection</guilabel>
+                        </para>
+                     </entry><entry colname="col2">
+                        <para>Protects user devices from hacker intrusions or attacks. Firewall components allow or block users from accessing a device. </para>
+                        <para>
+                           See <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v106548890_v101064224" target="basefrm" title="Network protection settings">Network protection settings</a>
+                        </para>
+                     </entry></row><row id="v113541602"><entry colname="col1">
+                        <para>
+                           <guilabel moreinfo="none">Connected Storage Devices</guilabel>
+                        </para>
+                     </entry><entry colname="col2">
+                        <para>Lets you limit access to external storage that users connect to their devices.</para>
+                     </entry></row><row id="v106549179"><entry colname="col1">
+                        <para>
+                           <guilabel moreinfo="none">Password Protection</guilabel>
+                        </para>
+                     </entry><entry colname="col2">
+                        <para>Prevents unauthorized access to user devices by enforcing passwords that are hard to guess or break with brute-force attacks.</para>
+                        <para>
+                           See <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v105617726_v101064224" target="basefrm" title="Password protection settings">Password protection settings</a>
+                        </para>
+                     </entry></row></tbody></tgroup></table><meta name="ProdID" value="SCSEM"/><meta name="build_date" date="09-23-2015, 5:51:08"/><meta name="shortproductname" value=""/></section>

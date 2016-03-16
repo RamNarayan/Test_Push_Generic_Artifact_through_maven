@@ -1,0 +1,160 @@
+<?xml-stylesheet href="makehtml.xsl" type="text/xsl"?><section id="v113454774" revision="09162015084300" vendor="referenced"><title id="v113454775">Release Notes for Symantec Security Cloud Beta</title><para id="v113506377">Thank you for participating in the Symantec Security Cloud Beta program.</para><para id="v114874375">Date: September 9, 2015</para><itemizedlist id="v114870010"><title id="v114871013">Known issues are categorized as follows:</title><listitem id="v114870011"><para id="v114870012">
+                  <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v113454774_v101064224#v113454777" target="basefrm" title="Enrollment issues">Enrollment issues</a>
+               </para></listitem><listitem id="v114870016"><para id="v114870017">
+                  <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v113454774_v101064224#v114870014" target="basefrm" title="Client issues">Client issues</a>
+               </para></listitem><listitem id="v114870019"><para id="v114870020">
+                  <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v113454774_v101064224#v114870015" target="basefrm" title="Portal issues">Portal issues</a>
+               </para></listitem></itemizedlist><bridgehead id="v113454777">Enrollment issues</bridgehead><table id="v114859376"><title>Table: </title><tgroup cols="2" id="v114859378"><colspec colname="col1" colnum="1" colwidth="12.5%"/><colspec colname="col2" colnum="2" colwidth="87.5%"/><thead id="v114859381"><row id="v114859382"><entry colname="col1">
+                        <para>Number</para>
+                     </entry><entry colname="col2">
+                        <para>Issue</para>
+                     </entry></row></thead><tbody id="v114859383"><row id="v114859385"><entry colname="col1">
+                        <para>1</para>
+                     </entry><entry colname="col2">
+                        <para id="v113506382">
+                           Enrollment of Windows servers is not supported.</para>
+
+                        <para id="v113840885">Enrollment of Windows servers will be included in an update to Symantec Security Cloud Beta.</para>
+                     </entry></row><row id="v114859386"><entry colname="col1">
+                        <para>2</para>
+                     </entry><entry colname="col2">
+                        <para id="v113630249">
+                           Enrollment of a previously unenrolled Windows device does not complete.</para>
+
+                        <para id="v113630250">To work around this issue,  manually uninstall Symantec Unified Endpoint Protection from the device before you enroll it again.</para>
+                     </entry></row><row id="v114859387"><entry colname="col1">
+                        <para>3</para>
+                     </entry><entry colname="col2">
+                        <para id="v113454780"> 
+                           Symantec Unified Endpoint Protection does not install if  Symantec Endpoint Protection or Symantec Endpoint Protection Small Business Edition is already installed on the device. Then the client displays an error during the initial scan.</para>
+                        <para id="v113650183"> To work around this issue, uninstall the Symantec Endpoint Protection client before you enroll a device in Symantec Security Cloud.</para>
+
+                     </entry></row><row id="v114859388"><entry colname="col1">
+                        <para>4</para>
+                     </entry><entry colname="col2">
+                        <para id="v113647996">
+                           There is no clear  indication in  Symantec Security Cloud if device enrollment fails due to connectivity issues.
+                        </para>
+
+                        <para id="v113647997">To resolve this issue, look for Windows devices that have been in the Pending state for more than a few hours. Then check the <guilabel moreinfo="none">Security History</guilabel> of the Windows device. If you see <guilabel moreinfo="none">Command Enroll Started</guilabel>, but not <guilabel moreinfo="none">Command Enroll Completed</guilabel>, unenroll the device from the Administrator portal, and then enroll it again.</para>
+                     </entry></row></tbody></tgroup></table><bridgehead id="v114870014">Client issues</bridgehead><table id="v114859389"><title>Table: </title><tgroup cols="2" id="v114859391"><colspec colname="col1" colnum="1" colwidth="12.5%"/><colspec colname="col2" colnum="2" colwidth="87.5%"/><thead id="v114859394"><row id="v114859395"><entry colname="col1">
+                        <para>Number</para>
+                     </entry><entry colname="col2">
+                        <para>Issue</para>
+                     </entry></row></thead><tbody id="v114859396"><row id="v114859397"><entry colname="col1">
+                        <para>1</para>
+                     </entry><entry colname="col2">
+                        <para id="v113818716">
+                           In some cases, on Windows and OS X clients the <guimenuitem moreinfo="none">Status</guimenuitem> slider is grayed out when real-time file scanning (Auto-Protect) is on.</para>
+                     </entry></row><row id="v114859399"><entry colname="col1">
+                        <para>2</para>
+                     </entry><entry colname="col2">
+                        <para id="v113823487">
+                           
+                           <guilabel moreinfo="none">Password Protection</guilabel> is not applied to OS X devices. Other relevant portions of the security policy are applied correctly.</para>
+                     </entry></row><row id="v114859401"><entry colname="col1">
+                        <para>3</para>
+                     </entry><entry colname="col2">
+                        <para id="v114714469">
+                           In some cases, a newly enrolled OS X device does not update the device status to Secure.</para>
+
+                        <para id="v114714470">To work around this issue, run LiveUpdate after the first-time enrollment and restart the Mac device. </para>
+                     </entry></row><row id="v114859402"><entry colname="col1">
+                        <para>4</para>
+                     </entry><entry colname="col2">
+                        <para id="v113793740">
+                           In some cases, inventory collection from client devices fails and only basic information is shown on the <guilabel moreinfo="none">Device Details</guilabel> page.</para>
+
+                        <para id="v113989289">Inventory data is then collected at the next scheduled time.</para>
+                     </entry></row><row id="v114859403"><entry colname="col1">
+                        <para>5</para>
+                     </entry><entry colname="col2">
+                        <para id="v114669402">
+                           In rare cases, the security client on an OS X device may prevent all communication over the network. </para>
+                        <para>If this problem does occur, you can restart the device to restore network communication. Please also contact the Symantec support team so that they can collect additional information from your system.</para>
+                     </entry></row><row id="v114859681"><entry colname="col1">
+                        <para>6</para>
+                     </entry><entry colname="col2">
+                        <para>
+                           In a Security policy, if the <guilabel moreinfo="none">Idle time</guilabel> is set to any value other than <guimenuitem moreinfo="none">Never</guimenuitem>, the device status for iOS devices may remain At Risk.
+
+                        </para>
+                        <para>To work around this issue, set the <guilabel moreinfo="none">Idle time</guilabel> to <guimenuitem moreinfo="none">Never</guimenuitem>.</para>
+                     </entry></row><row id="v114859682"><entry colname="col1">
+                        <para>7</para>
+                     </entry><entry colname="col2">
+                        <para>
+                           In some cases, OS X device status does not change to Secure during device transfer. 
+                        </para>
+                     </entry></row></tbody></tgroup></table><bridgehead id="v114870015">Portal issues</bridgehead><table id="v114859404"><title>Table: </title><tgroup cols="2" id="v114859406"><colspec colname="col1" colnum="1" colwidth="12.5%"/><colspec colname="col2" colnum="2" colwidth="87.5%"/><thead id="v114859409"><row id="v114859410"><entry colname="col1">
+                        <para>Number</para>
+                     </entry><entry colname="col2">
+                        <para>Issue</para>
+                     </entry></row></thead><tbody id="v114859411"><row id="v114859412"><entry colname="col1">
+                        <para>1</para>
+                     </entry><entry colname="col2">
+                        <para id="v113818718">
+                           On Windows 8 and 8.1, if you use the IE10 or IE11 browser, then two cancel options (X) are displayed in the <guimenuitem moreinfo="none">Search</guimenuitem> box.</para>
+                     </entry></row><row id="v114859413"><entry colname="col1">
+                        <para>2</para>
+                     </entry><entry colname="col2">
+                        <para id="v113915956">
+                            Symantec Security Cloud displays time information in UTC time.</para>
+                     </entry></row><row id="v114859414"><entry colname="col1">
+                        <para>3</para>
+                     </entry><entry colname="col2">
+                        <para id="v113793742">
+                           When you try to create a new user with an existing email address, a misleading error message is displayed: <guilabel moreinfo="none">Unable to provision new user. Please try at a later time.</guilabel>
+                        </para>
+                     </entry></row><row id="v114859416"><entry colname="col1">
+                        <para>4</para>
+                     </entry><entry colname="col2">
+                        <para id="v113989291">The <guimenuitem moreinfo="none">Enroll this device</guimenuitem> option is active even if the device is already enrolled.</para>
+                     </entry></row><row id="v114859417"><entry colname="col1">
+                        <para>5</para>
+                     </entry><entry colname="col2">
+                        <para id="v114639535">
+                           If you integrate Symantec Security Cloud with Azure Active Directory, no users who were created before the initial sync can authenticate successfully.</para>
+
+                        <para id="v114639536">To work around this issue, avoid enrolling end users manually. But administrator accounts must be created manually, so all administrators should bookmark the following webpage and use it to sign in after integration: <ulink url="https://securitycloud.symantec.com/sso/login?admin=1">https://securitycloud.symantec.com/sso/login?admin=1</ulink>.</para>
+                     </entry></row><row id="v114859418"><entry colname="col1">
+                        <para>6</para>
+                     </entry><entry colname="col2">
+                        <para id="v114639543">
+                           The Anomalous User Behavior alert shows the time that is associated with the oldest event that contributed to the alert. This alert is triggered when a certain threshold is reached, so the alert should show the time of the latest event that contributed to reaching the threshold.</para>
+                     </entry></row><row id="v114859421"><entry colname="col1">
+                        <para>7</para>
+                     </entry><entry colname="col2">
+                        <para id="v114714456">
+                           On the <guilabel moreinfo="none">Device Details</guilabel> page, the following <guilabel moreinfo="none">Protection Summary</guilabel> fields are not functional:</para>
+                        <itemizedlist id="v114714457"><listitem id="v114714458"><para id="v114714459">
+                                 <guilabel moreinfo="none">Number of Intrusions Blocked over last 7 days</guilabel>
+                              </para></listitem><listitem id="v114714460"><para id="v114714461">
+                                 <guilabel moreinfo="none">Number of Viruses Blocked over last 7 days</guilabel>
+                              </para></listitem><listitem id="v114714462"><para id="v114714463">
+                                 <guilabel moreinfo="none">Number of USB Devices Blocked over last 7</guilabel>
+                              </para></listitem></itemizedlist>
+                     </entry></row><row id="v114859422"><entry colname="col1">
+                        <para>8</para>
+                     </entry><entry colname="col2">
+                        <para id="v114714465">
+                           In the dashboard, you cannot export the <guilabel moreinfo="none">Threat Activity</guilabel> chart data for the <guimenuitem moreinfo="none">Year</guimenuitem> filter. </para>
+                     </entry></row><row id="v114859423"><entry colname="col1">
+                        <para>9</para>
+                     </entry><entry colname="col2">
+                        <para id="v114730897">
+                           In some cases, OS X device status is not updated due to failure in creation of the policy status record.</para>
+                     </entry></row><row id="v114859424"><entry colname="col1">
+                        <para>10</para>
+                     </entry><entry colname="col2">
+                        <para id="v114747424">
+                           On the <guilabel moreinfo="none">Welcome</guilabel> page, the <guimenuitem moreinfo="none">Support Center</guimenuitem> and <guimenuitem moreinfo="none">Featured Discussion</guimenuitem> links do not work.</para>
+                     </entry></row><row id="v114995878"><entry colname="col1">
+                        <para>11</para>
+                     </entry><entry colname="col2">
+                        <para>The <guilabel moreinfo="none">Account Administrator</guilabel> role is not available in Symantec Security Cloud Beta.</para>
+                     </entry></row><row id="v115067027"><entry colname="col1">
+                        <para>12</para>
+                     </entry><entry colname="col2">
+                        <para>After you create a user account, it is not possible to change its details, such as name.</para>
+                     </entry></row></tbody></tgroup></table><meta name="ProdID" value="SCSEM"/><meta name="build_date" date="09-23-2015, 5:51:08"/><meta name="shortproductname" value=""/></section>

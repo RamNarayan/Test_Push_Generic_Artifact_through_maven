@@ -1,0 +1,83 @@
+<?xml-stylesheet href="makehtml.xsl" type="text/xsl"?><section id="v113799200" revision="08242015105741" vendor="referenced"><title id="v113799520">Enrolling devices<token>EO_devices</token> 
+         </title><para id="v113799521">Symantec Security Cloud's user-based management model means that after you create user accounts, end-users and administrators can enroll their own devices. These devices can be company-owned, or personal.</para><note id="v113922192"><para id="v113799528">The ownership type is set when a device is enrolled. To change the ownership setting, the device must be unenrolled and re-enrolled.</para></note><para id="v113940501">
+            See <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v113940507_v101064224" target="basefrm" title="Managing a device">Managing a device</a>
+         </para><bridgehead id="v113986086">Overview of enrollment methods</bridgehead><table id="v113922194"><title>Table: Enrollment methods</title><tgroup cols="2" id="v113922196"><colspec colname="col02" colnum="1" colwidth="20.833333333333336%"/><colspec colname="col2" colnum="2" colwidth="79.16666666666666%"/><thead id="v113922199"><row id="v113922200"><entry colname="col02">
+                        <para>Method</para>
+                     </entry><entry colname="col2">
+                        <para>Description</para>
+                     </entry></row></thead><tbody id="v113922201"><row id="v113922202"><entry colname="col02">
+                        <para id="v113799531">Self-enrollment </para>
+                     </entry><entry colname="col2">
+                        <itemizedlist><listitem><para>All users can enroll their own devices, both personal or company-owned.</para></listitem><listitem><para>All supported device types can be self-enrolled, except for servers.</para></listitem><listitem><para> All self-enrolled devices are assigned to the user who enrolls them.</para></listitem><listitem><para>All of a user's devices are governed by the policies applied to the group the user belongs to.</para></listitem></itemizedlist>
+                     </entry></row><row id="v113922204"><entry colname="col02">
+                        <para>Package deployment</para>
+                     </entry><entry colname="col2">
+                        <itemizedlist><title>Windows desktops and laptops:</title><listitem><para>Administrators can use an installation package to enroll company-owned Windows devices. </para></listitem><listitem><para>These devices are added directly to the default group.</para></listitem><listitem><para>These devices can be moved to different group or  assigned to a user.</para></listitem></itemizedlist>
+                        <itemizedlist><title>Windows servers:</title><listitem><para>Package deployment is the only method you can use to enroll Windows servers. </para></listitem><listitem><para>Servers are added directly to the default group.</para></listitem><listitem><para>Servers can be moved to a different group.</para></listitem><listitem><para>As a shared resource, servers are never assigned to a user.</para></listitem></itemizedlist>
+                        <para id="v113799534">
+                           See <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v109029098_v101064224" target="basefrm" title="Deploying a Windows installation package">Deploying a Windows installation package</a>
+                        </para>
+                     </entry></row><row id="v113922203"><entry colname="col02">
+                        <para>Unenrollment </para>
+                     </entry><entry colname="col2">
+                        <itemizedlist><listitem><para>End users can unenroll their personal devices, but not the company-owned devices that they enroll. </para></listitem><listitem><para>Administrators can unenroll any device.</para></listitem><listitem><para>Unenrolled devices are no longer managed by Symantec Security Cloud.</para></listitem><listitem><para>After a device is unenrolled, it is hidden from the default view on the <guilabel moreinfo="none">Devices</guilabel> tab. To view the list of unenrolled devices, select the <guimenuitem moreinfo="none">Unenrolled</guimenuitem> status from the filter dropdown. </para></listitem></itemizedlist>
+                        <note id="v113799525"><para id="v113799526">If you delete a user account, all of the user's devices are automatically unenrolled.</para><para id="v113799527"/></note>
+                     </entry></row></tbody></tgroup></table><para id="v113799532">
+            
+         </para><para id="v113799533">
+            
+         </para><bridgehead id="v113986087">Components installed on a device</bridgehead><table id="v113799552"><title>Table: Components installed during enrollment</title><tgroup cols="2" id="v113799554"><colspec colname="col1" colnum="1" colwidth="29.166666666666668%"/><colspec colname="col2" colnum="2" colwidth="70.83333333333333%"/><thead id="v113799557"><row id="v113799558"><entry colname="col1">
+                        <para>Operating system</para>
+                     </entry><entry colname="col2">
+                        <para>Downloaded or installed components</para>
+                     </entry></row></thead><tbody id="v113799559"><row id="v113799560"><entry colname="col1">
+                        <para>Android</para>
+                     </entry><entry colname="col2">
+                        <itemizedlist><listitem><para>Management app</para></listitem><listitem><para>Security client</para></listitem></itemizedlist>
+                     </entry></row><row id="v113799561"><entry colname="col1">
+                        <para>iOS</para>
+                     </entry><entry colname="col2">
+                        <itemizedlist><listitem><para>Management profile</para></listitem></itemizedlist>
+                        <note><para>If another management profile is already installed, enrollment fails. The profile must be removed, and then you can try again.</para></note>
+                     </entry></row><row id="v113799562"><entry colname="col1">
+                        <para>OS X</para>
+                     </entry><entry colname="col2">
+                        <itemizedlist><listitem><para>Helper application (downloader)</para></listitem><listitem><para>Management profile</para></listitem><listitem><para>Security client</para></listitem></itemizedlist>
+                     </entry></row><row id="v113799563"><entry colname="col1">
+                        <para>Windows</para>
+                     </entry><entry colname="col2">
+                        <itemizedlist><listitem><para>Helper application (downloader)</para></listitem><listitem><para>Security client</para></listitem></itemizedlist>
+                     </entry></row></tbody></tgroup></table><bridgehead id="v113799536">Enrolling a device</bridgehead><para id="v113799537">You can use the following procedure to enroll any type of device except for Windows servers. </para><para id="v113799523">
+            See <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v106548504_v101064224" target="basefrm" title="Supported devices and browsers">Supported devices and browsers</a>
+         </para><note id="v113922206"><para id="v113922207">The browsers you can use for enrollment are more limited than the ones you can use for administrative tasks. The following table lists the supported browsers for each OS.</para></note><table id="v113986088"><title>Table: Browser support for enrollment</title><tgroup cols="2" id="v113986090"><colspec colname="col1" colnum="1" colwidth="29.166666666666668%"/><colspec colname="col02" colnum="2" colwidth="70.83333333333333%"/><thead id="v113986093"><row id="v113986094"><entry colname="col1">
+                        <para>Operating system</para>
+                     </entry><entry colname="col02">
+                        <para>Supported browser</para>
+                     </entry></row></thead><tbody id="v113986095"><row id="v113986096"><entry colname="col1">
+                        <para>Android</para>
+                     </entry><entry colname="col02">
+                        <para>Chrome</para>
+                     </entry></row><row id="v113986097"><entry colname="col1">
+                        <para>iOS</para>
+                     </entry><entry colname="col02">
+                        <para>Safari</para>
+                     </entry></row><row id="v113986098"><entry colname="col1">
+                        <para>OS X</para>
+                     </entry><entry colname="col02">
+                        <para>Safari</para>
+                     </entry></row><row id="v113986099"><entry colname="col1">
+                        <para>Windows 7</para>
+                     </entry><entry colname="col02">
+                        <para> Internet Explorer, Firefox, or Chrome</para>
+                     </entry></row><row id="v113986100"><entry colname="col1">
+                        <para>Windows 8</para>
+                     </entry><entry colname="col02">
+                        <para>Internet Explorer</para>
+                     </entry></row><row id="v113986101"><entry colname="col1">
+                        <para>Windows 10</para>
+                     </entry><entry colname="col02">
+                        <para>Edge</para>
+                     </entry></row></tbody></tgroup></table><procedure id="v113799542"><title id="v113799543">To enroll a device</title><step id="v113799544" performance="required"><para id="v113799545">On the device, use a supported browser to sign in to Symantec Security Cloud .</para></step><step id="v113799546" performance="required"><para id="v113799547">Go to <guimenuitem moreinfo="none">Groups, Users, and Devices</guimenuitem>, select the plus icon, and  select <guimenuitem moreinfo="none">Enroll this device</guimenuitem>.</para><note id="v113866657"><para id="v113866660">When end-users sign in, they immediately see the <guimenuitem moreinfo="none">Enroll this device</guimenuitem> option. They don't navigate to another page.
+                  </para></note></step><step id="v113799549" performance="required"><para id="v113799550">Follow the instructions and prompts.</para><para id="v113799551">The exact steps vary by operating system. Detailed instructions are provided on the enrollment pages.</para></step></procedure><note id="v113799540"><para id="v113917445">
+               After the necessary software is installed, the status of OS X and Windows devices is set to Pending until the first scan has completed. 
+            </para></note><meta name="ProdID" value="SCSEM"/><meta name="build_date" date="09-23-2015, 5:51:08"/><meta name="shortproductname" value=""/></section>

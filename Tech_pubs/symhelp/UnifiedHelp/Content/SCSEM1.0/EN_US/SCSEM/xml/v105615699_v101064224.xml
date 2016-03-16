@@ -1,0 +1,37 @@
+<?xml-stylesheet href="makehtml.xsl" type="text/xsl"?><section id="v105615699" revision="08312015123909" vendor="referenced"><title id="v105615702">Device protection settings<token>PDM_security_policy_device_protection</token>
+         </title><para id="v102512560">The <guilabel moreinfo="none">Device Protection</guilabel> settings in a security policy are essential to protecting your devices from security threats. In addition to detecting known viruses, Symantec uses sophisticated behavior-based analytics to identify and block zero-day threats from malicious or compromised files and applications.</para><para id="v113956580">
+            See <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v112648451_v101064224" target="basefrm" title="How protection features works in Symantec Security Cloud">How protection features works in Symantec Security Cloud</a>
+         </para><table id="v110320295"><title>Table: Device protection settings</title><tgroup cols="2" id="v110320297"><colspec colname="col1" colnum="1" colwidth="50%"/><colspec colname="col2" colnum="2" colwidth="50%"/><thead id="v110320300"><row id="v110320301"><entry colname="col1">
+                        <para>Setting</para>
+                     </entry><entry colname="col2">
+                        <para>Description</para>
+                     </entry></row></thead><tbody id="v110320302"><row id="v110320303"><entry colname="col1">
+                        <para id="v102512563">
+                           <guilabel moreinfo="none">Real-time File Scanning</guilabel>
+                        </para>
+                     </entry><entry colname="col2">
+                        <para id="v102512564">Also known as Auto-Protect.</para>
+                        <para>Scans files as they are written to or read from the system.</para>
+                        <warning label="Warning: "><para>If you disable Real-time File Scanning, you also disable Application Behavior Monitoring.</para></warning>
+                     </entry></row><row id="v110320304"><entry colname="col1">
+                        <para id="v102512571">
+                           <guilabel moreinfo="none">File Reputation Assessment</guilabel>
+                        </para>
+                     </entry><entry colname="col2">
+                        <para id="v107037808">Also known as Download Insight.</para>
+                        <para>Inspects files that users try to download through web browsers,
+text messaging clients, and other portals. Uses reputation
+information from Symantec Insight to make decisions about files.</para>
+                        <warning label="Warning: "><para>If you disable File Reputation Assessment, you also limit the ability of Application Behavior Monitoring to make detections.</para></warning>
+                     </entry></row><row id="v110320305"><entry colname="col1">
+                        <para id="v102512566">
+                           <guilabel moreinfo="none">Application Behavior Monitoring</guilabel>
+                        </para>
+                     </entry><entry colname="col2">
+                        <para id="v102512567">Also known as SONAR.</para>
+                        <para>Provides "zero-day" protection by detecting potentially malicious applications before traditional virus and spyware definitions have been created to address threats.</para>
+                     </entry></row></tbody></tgroup></table><para id="v113956582">
+            <xref xreflabel="Policy overview" linkend="v110549694" role="linkmoreinfo"/>
+         </para><para id="v113956584">
+            <xref xreflabel="Configuring security policy settings" linkend="v110549650" role="linkmoreinfo"/>
+         </para><div class="moreinfo"><p class="title">More Information</p><p><a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v110549694_v101064224" target="basefrm" title="Policy overview">Policy overview</a></p><p><a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v110549650_v101064224" target="basefrm" title="Configuring security policy settings">Configuring security policy settings</a></p></div><meta name="ProdID" value="SCSEM"/><meta name="build_date" date="09-23-2015, 5:51:08"/><meta name="shortproductname" value=""/></section>

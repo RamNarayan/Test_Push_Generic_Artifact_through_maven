@@ -1,0 +1,10 @@
+<?xml-stylesheet href="makehtml.xsl" type="text/xsl"?><section id="v105398966" revision="09232015045234" vendor="referenced"><title id="v105398967">Understanding alerts<token>AE_alerts_home_page</token>
+         </title><para id="v106867916">Alerts let you know about important events that occur in your environment. The alert details and severity level help you decide what course of action to take. </para><para id="v110303791">Alerts can be triggered by a single event or multiple events. Events that trigger alerts fall into one of several categories, from security issues to business conditions. For example, alerts are generated when high-risk user behavior is detected or a subscription is about to expire. </para><para id="v107003826">
+            See <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v109630219_v101064224" target="basefrm" title="Configuring alert notifications">Configuring alert notifications</a>
+         </para><para id="v112562074">
+            <xref xreflabel="Severity levels of alerts and events " linkend="v112562035" role="linkmoreinfo"/>
+         </para><para id="v110303792">
+            <xref xreflabel="Understanding events" linkend="v109377161" role="linkmoreinfo"/>
+         </para><para id="v113917495">
+            <xref xreflabel="Alert and event categories" linkend="v113912934" role="linkmoreinfo"/>
+         </para><div class="moreinfo"><p class="title">More Information</p><p><a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v112562035_v101064224" target="basefrm" title="Severity levels of alerts and events">Severity levels of alerts and events</a></p><p><a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v109377161_v101064224" target="basefrm" title="Understanding events">Understanding events</a></p><p><a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v113912934_v101064224" target="basefrm" title="Alert and event categories">Alert and event categories</a></p></div><meta name="ProdID" value="SCSEM"/><meta name="build_date" date="09-23-2015, 5:51:08"/><meta name="shortproductname" value=""/></section>

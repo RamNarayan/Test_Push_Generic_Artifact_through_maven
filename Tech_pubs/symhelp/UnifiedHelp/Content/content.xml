@@ -1,0 +1,4 @@
+<appSettings>
+    <add key="defaultproduct" value="VOMHELPCURRENT"/>
+    <add key="defaultlocale" value="en_us"/>
+</appSettings>

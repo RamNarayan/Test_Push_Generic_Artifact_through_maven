@@ -1,0 +1,65 @@
+<?xml-stylesheet href="makehtml.xsl" type="text/xsl"?><section id="v112562035" revision="08312015045155" vendor="referenced"><title id="v112562050">Severity levels of alerts and events </title><para id="v112544484">The severity of an alert or event varies based on the specific condition that triggered it, whether action is required, and how urgently action is required.</para><table id="v114047440"><title>Table: Types of severity levels</title><tgroup cols="2" id="v114047442"><colspec colname="col1" colnum="1" colwidth="50%"/><colspec colname="col2" colnum="2" colwidth="50%"/><thead id="v114047445"><row id="v114047446"><entry colname="col1">
+                        <para>Severity level (low to high)</para>
+                     </entry><entry colname="col2">
+                        <para>Description</para>
+                     </entry></row></thead><tbody id="v114047447"><row id="v114047448"><entry colname="col1">
+                        <para>Informational</para>
+					
+                     </entry><entry colname="col2">
+                        <para>No remedial action is required.  
+                           
+                        </para>
+                        <para>For example, when a new device is enrolled or an existing device is unenrolled.</para>
+					
+                     </entry></row><row id="v114047449"><entry colname="col1">
+                        <para>Warning</para>
+					
+                     </entry><entry colname="col2">
+                        <para>Investigate to decide whether any action is required.</para>
+						
+                        <para>For example, malicious applications are detected on the same device within a short span of time.  
+                        </para>
+                        <para>
+                           
+                        </para>
+                     </entry></row><row id="v114047450"><entry colname="col1">
+                        <para>Minor (events only)</para>
+					
+                     </entry><entry colname="col2">
+                        <para>Action is required, but the situation is not serious at this time.</para>
+                        <para>For example, a subscription is about to expire.
+                        </para>
+                        <para>
+                           
+                        </para>
+					
+                     </entry></row><row id="v114047451"><entry colname="col1">
+                        <para>Major (events only)</para>
+					
+                     </entry><entry colname="col2">
+                        <para>Action is required immediately.</para>
+                        <para>For example, a severe threat is detected on a device and it is remediated.</para>
+                     </entry></row><row id="v114047452"><entry colname="col1">
+                        <para>Critical</para>
+					
+                     </entry><entry colname="col2">
+                        <para>Action is required immediately because the scope of the problem has increased. Investigate critical alerts or events immediately.</para>
+                        <para>For example, when the same malware is detected across multiple devices in your environment.</para>
+					
+                     </entry></row><row id="v114047453"><entry colname="col1">
+                        <para>Fatal (events) | Error (alerts)</para>
+                     </entry><entry colname="col2">
+                        <para>An error has occurred but it is too late to take any remedial action to address it.</para>
+                        <para>For example, a widespread virus outbreak has occurred in your network, which has infected multiple devices that cannot be remediated.
+
+</para>
+                        <para>
+                           
+                        </para>
+                     </entry></row></tbody></tgroup></table><para id="v112562070">
+            <xref xreflabel="Understanding alerts" linkend="v105398966" role="linkmoreinfo"/>
+         </para><para id="v112562072">
+            <xref xreflabel="Understanding events" linkend="v109377161" role="linkmoreinfo"/>
+         </para><para id="v113917521">
+            <xref xreflabel="Alert and event categories" linkend="v113912934" role="linkmoreinfo"/>
+         </para><div class="moreinfo"><p class="title">More Information</p><p><a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v105398966_v101064224" target="basefrm" title="Understanding alerts">Understanding alerts</a></p><p><a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v109377161_v101064224" target="basefrm" title="Understanding events">Understanding events</a></p><p><a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v113912934_v101064224" target="basefrm" title="Alert and event categories">Alert and event categories</a></p></div><meta name="ProdID" value="SCSEM"/><meta name="build_date" date="09-23-2015, 5:51:08"/><meta name="shortproductname" value=""/></section>

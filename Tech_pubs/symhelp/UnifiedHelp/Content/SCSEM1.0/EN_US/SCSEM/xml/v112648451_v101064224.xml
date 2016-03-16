@@ -1,0 +1,60 @@
+<?xml-stylesheet href="makehtml.xsl" type="text/xsl"?><section id="v112648451" revision="09162015042118" vendor="referenced"><title id="v113344597">How protection features works in Symantec Security Cloud
+         </title><para id="v113344598">Symantec Security Cloud protects the devices in your network with a layered approach to defense. This layered approach protects individual devices and your entire network. Device protection settings are controlled by your security policy.</para><para id="v113956596">
+            See <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v110549650_v101064224" target="basefrm" title="Configuring security policy settings">Configuring security policy settings</a>
+         </para><note id="v113956573"><para id="v113956574">Different device platforms support different protection features.</para></note><table id="v113789367"><title>Table: Protection features in Symantec Security Cloud</title><tgroup cols="2" id="v113789369"><colspec colname="col1" colnum="1" colwidth="40%"/><colspec colname="col2" colnum="2" colwidth="60%"/><thead id="v113789372"><row id="v113789373"><entry colname="col1">
+                        <para>
+                           <guilabel moreinfo="none">Feature</guilabel>
+                        </para>
+                     </entry><entry colname="col2">
+                        <para>Description</para>
+                     </entry></row></thead><tbody id="v113789374"><row id="v113789384"><entry colname="col1">
+                        <para>
+                           <guilabel moreinfo="none">Virus and spyware scanning</guilabel>
+                        </para>
+                     </entry><entry colname="col2">
+                        <para>Traditional signature-based antivirus protection that runs regular scans on the devices in your network.</para>
+                        <para>Looks for and eradicates any malware that has already taken up residence on a system.</para>
+                        <note><para>You cannot configure these scans. They run automatically on the device. (Windows only)</para></note>
+                     </entry></row><row id="v113789375"><entry colname="col1">
+                        <para>
+                           <guilabel moreinfo="none">Real-time File Scanning</guilabel>
+                        </para>
+                     </entry><entry colname="col2">
+                        <para>Also known as Auto-Protect</para>
+                        <para>Provides the same detection and remediation as automatic scans, but checks files whenever they are read from or written to the system. (Windows and Mac)</para>
+                     </entry></row><row id="v113789376"><entry colname="col1">
+                        <para>
+                           <guilabel moreinfo="none">File Reputation Assessment</guilabel>
+                        </para>
+                     </entry><entry colname="col2">
+                        <para>Also known as Download Insight</para>
+                        <para>Detects potential risks in downloaded files based on file reputation. Leverages the Symantec Insight reputation database, which collects information from a global community of millions of users and from the Global Intelligence Network.</para>
+                     </entry></row><row id="v113789377"><entry colname="col1">
+                        <para>
+                           <guilabel moreinfo="none">Application Behavior Monitoring</guilabel>
+                        </para>
+                     </entry><entry colname="col2">
+                        <para>Also known as SONAR</para>
+                        <para id="v113789382">Looks for suspicious behavior by well-known applications to decide whether the application has been compromised. Protects devices from zero-day threats, before traditional virus and spyware definitions have been created to address the threats.</para>
+                        <para>Detects emerging threats by combining Symantec Insight with proactive local monitoring on devices.</para>
+                     </entry></row><row id="v113789378"><entry colname="col1">
+                        <para>
+                           <guilabel moreinfo="none">Intrusion Prevention</guilabel>
+                        </para>
+                     </entry><entry colname="col2">
+                        <para>Also known as IPS</para>
+                        <para>Intercepts data at the network layer. Provides signature-based scans of packets or streams of packets to look for patterns that correspond to network attacks or browser attacks. Detects attacks on operating system components and on the application layer.
+</para>
+                     </entry></row><row id="v113789379"><entry colname="col1">
+                        <para>
+                           <guilabel moreinfo="none">Firewall</guilabel>
+                        </para>
+                     </entry><entry colname="col2">
+                        <para>Protects devices from malicious
+inbound and outbound traffic. Automatically checks all inbound and outbound packets against firewall  rules, and allows
+or blocks the packets based on these rules. Provides stateful inspection of
+all network traffic.</para>
+                        <para>Blocks incoming UNC traffic when the user is in a public place, for example.</para>
+                     </entry></row></tbody></tgroup></table><para id="v113956599">
+            <xref xreflabel="How groups manage policy flow in Symantec Security Cloud" linkend="v102766295" role="linkmoreinfo"/>
+         </para><div class="moreinfo"><p class="title">More Information</p><p><a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v102766295_v101064224" target="basefrm" title="How groups manage policy flow in Symantec Security Cloud">How groups manage policy flow in Symantec Security Cloud</a></p></div><meta name="ProdID" value="SCSEM"/><meta name="build_date" date="09-23-2015, 5:51:08"/><meta name="shortproductname" value=""/></section>

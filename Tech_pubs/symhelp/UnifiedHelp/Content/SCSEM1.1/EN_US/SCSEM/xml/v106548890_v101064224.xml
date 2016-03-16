@@ -1,0 +1,24 @@
+<?xml-stylesheet href="makehtml.xsl" type="text/xsl"?><section id="v106548890" revision="08312015124000" vendor="referenced"><title id="v106548891">Network protection settings<token>PDM_security_policy_network_protection</token>
+         </title><para id="v106548894">The <guilabel moreinfo="none">Network Protection</guilabel> settings in a security policy let you control network-based protection on the devices in your network.</para><para id="v113956590">
+            See <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v112648451_v101064224" target="basefrm" title="How protection features works in Symantec Security Cloud">How protection features works in Symantec Security Cloud</a>
+         </para><note id="v113899212"><para id="v113899213">These settings do not apply to servers and are ignored.</para></note><table id="v110320322"><title>Table: Network protection settings</title><tgroup cols="2" id="v110320324"><colspec colname="col1" colnum="1" colwidth="50%"/><colspec colname="col2" colnum="2" colwidth="50%"/><thead id="v110320327"><row id="v110320328"><entry colname="col1">
+                        <para>Setting</para>
+                     </entry><entry colname="col2">
+                        <para>Description</para>
+                     </entry></row></thead><tbody id="v110320329"><row id="v110320330"><entry colname="col1">
+                        <para id="v106548898">
+                           <guilabel moreinfo="none">Intrusion protection</guilabel>
+                        </para>
+                     </entry><entry colname="col2">
+                        <para id="v106956321">Automatically detects and blocks network attacks.</para>
+                     </entry></row><row id="v110320331"><entry colname="col1">
+                        <para id="v106548900">
+                           <guilabel moreinfo="none">Firewall</guilabel>
+                        </para>
+                     </entry><entry colname="col2">
+                        <para id="v106956322">Applies default firewall policies to allow or block network traffic. </para>
+                     </entry></row></tbody></tgroup></table><para id="v113956592">
+            <xref xreflabel="Policy overview" linkend="v110549694" role="linkmoreinfo"/>
+         </para><para id="v113956594">
+            <xref xreflabel="Configuring security policy settings" linkend="v110549650" role="linkmoreinfo"/>
+         </para><div class="moreinfo"><p class="title">More Information</p><p><a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v110549694_v101064224" target="basefrm" title="Policy overview">Policy overview</a></p><p><a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v110549650_v101064224" target="basefrm" title="Configuring security policy settings">Configuring security policy settings</a></p></div><meta name="ProdID" value="SCSEM"/><meta name="build_date" date="09-23-2015, 5:51:08"/><meta name="shortproductname" value=""/></section>

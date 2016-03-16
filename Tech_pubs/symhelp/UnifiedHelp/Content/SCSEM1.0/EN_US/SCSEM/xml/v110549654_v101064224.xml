@@ -1,0 +1,59 @@
+<?xml-stylesheet href="makehtml.xsl" type="text/xsl"?><section id="v110549654" revision="09212015224518" vendor="referenced"><title id="v110549656">Configuring email access policy settings<token>PDM_access_policy_new</token>
+         </title><para id="v101924543">The <guilabel moreinfo="none">Access Policy</guilabel> components are the building blocks of an access policy. These components are used based on the scope of the policy and the employed security measures. </para><itemizedlist id="v102445393"><title id="v102513532">For example, an access policy can have one or more of the following components:</title><listitem id="v102445396"><para id="v102445397">
+                  <guilabel moreinfo="none">Server Name</guilabel> and <guilabel moreinfo="none">Domain Name</guilabel> that let you configure the access to the correct server and domain.</para></listitem><listitem id="v113344594"><para id="v102445395">
+                  <guilabel moreinfo="none">Don't allow access if device status is</guilabel> related details that is required for applying the policy to a device.</para></listitem><listitem id="v102445398"><para id="v102445399">Other settings specify how many days of past email can be synchronized on a device, and whether or not to use SSL.</para></listitem></itemizedlist><para id="v101924546">The access policy components are further broken down to specific settings. These settings are the controls that ensure that the scope of the policy is covered and adequate access to IT assets and resources is provided. A collection of similar settings is grouped under one component. </para><para id="v110997768">For example, the <guilabel moreinfo="none">Email Settings</guilabel> is a group of similar settings that enable an administrator to configure access to the relevant mail server and domain along with other email access related settings. </para><table id="v110997479"><title>Table: Email settings</title><tgroup cols="2" id="v110997481"><colspec colname="col1" colnum="1" colwidth="50%"/><colspec colname="col2" colnum="2" colwidth="50%"/><thead id="v110997484"><row id="v110997485"><entry colname="col1">
+                        <para>Setting</para>
+                     </entry><entry colname="col2">
+                        <para>Description</para>
+                     </entry></row></thead><tbody id="v110997486"><row id="v110997487"><entry colname="col1">
+                        <para>
+                           <guilabel moreinfo="none">Server Name</guilabel>
+                        </para>
+                     </entry><entry colname="col2">
+                        <para id="v101924552">The name of the mail server that you want users to access email from.</para>
+
+                        <note id="v101924553"><para id="v101924554">Currently, Symantec Security Cloud supports only exchange server accounts. </para></note>
+                     </entry></row><row id="v110997488"><entry colname="col1">
+                        <para>
+                           <guilabel moreinfo="none">Domain Name</guilabel>
+                        </para>
+                     </entry><entry colname="col2">
+                        <para id="v101924557">The email access domain name in the form of <filename moreinfo="none">example.com</filename>.</para>
+                        <para>Currently, Symantec Security Cloud supports only Exchange server accounts.</para>
+
+                     </entry></row><row id="v110997489"><entry colname="col1">
+                        <para>
+                           <guilabel moreinfo="none">Keep emails on the device for</guilabel>
+                        </para>
+                     </entry><entry colname="col2">
+                        <para id="v101924560">To save storage space on your device, you can set the number of past days of emails, which can be synchronized on your device.</para>
+                        <para>For example, <guilabel moreinfo="none">Keep emails on the device for</guilabel> = 3 days means that emails from last 3 days can be downloaded and synchronized on your device.</para>
+
+                     </entry></row><row id="v110997490"><entry colname="col1">
+                        <para>
+                           <guilabel moreinfo="none">Don't allow access if device status is</guilabel>
+                        </para>
+                     </entry><entry colname="col2">
+                        <para>As users can enroll their personally owned devices, you may allow users to move company email to personal devices. 
+</para>
+                        <para>You can also specify whether devices can receive company email when they are in a non-secure state. You can make this decision by allowing or restricting email access on Compromised  or At Risk devices.</para>
+                        <para>By default,  company email access is restricted on Compromised devices, but you can allow email access on both - Compromised and At Risk devices. </para>
+                        <para>The other restriction is whether you want to apply email access policy only on a company owned device or any device. 
+                        </para>
+                     </entry></row></tbody></tgroup></table><table id="v110997644"><title>Table: Optional settings</title><tgroup cols="2" id="v110997646"><colspec colname="col1" colnum="1" colwidth="50%"/><colspec colname="col2" colnum="2" colwidth="50%"/><thead id="v110997649"><row id="v110997650"><entry colname="col1">
+                        <para/>
+                     </entry><entry colname="col2">
+                        <para/>
+                     </entry></row></thead><tbody id="v110997651"><row id="v110997652"><entry colname="col1">
+                        <para id="v101924565">
+                           <guilabel moreinfo="none">Use SSL</guilabel>
+                        </para>
+                     </entry><entry colname="col2">
+                        <para id="v101924566">The  option to select SSL encryption. </para>
+                        <para>SSL is used by default, and we recommend that you keep this setting enabled if you want to protect your confidential information such as user names, passwords, and credit card numbers. </para>
+
+                     </entry></row></tbody></tgroup></table><para id="v110549809">
+            <xref xreflabel="Managing access to company email" linkend="v110549653" role="linkmoreinfo"/>
+         </para><para id="v110549811">
+            <xref xreflabel="Policy overview" linkend="v110549694" role="linkmoreinfo"/>
+         </para><div class="moreinfo"><p class="title">More Information</p><p><a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v110549653_v101064224" target="basefrm" title="Managing access to company email">Managing access to company email</a></p><p><a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v110549694_v101064224" target="basefrm" title="Policy overview">Policy overview</a></p></div><meta name="ProdID" value="SCSEM"/><meta name="build_date" date="09-23-2015, 5:51:08"/><meta name="shortproductname" value=""/></section>

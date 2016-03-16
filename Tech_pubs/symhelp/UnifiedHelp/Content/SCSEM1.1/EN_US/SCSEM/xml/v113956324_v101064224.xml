@@ -1,0 +1,60 @@
+<?xml-stylesheet href="makehtml.xsl" type="text/xsl"?><section id="v113956324" revision="09212015223311" vendor="referenced"><title id="v113956325">Troubleshooting device status
+         </title><para id="v113956326">You need to take immediate action if a device is at risk or compromised. Different remediation and troubleshooting options are available depending on the device platform.</para><para id="v113956559">
+            See <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v113940507_v101064224" target="basefrm" title="Managing a device">Managing a device</a>
+         </para><table id="v113956561"><title>Table: Troubleshooting options</title><tgroup cols="2" id="v113956563"><colspec colname="col1" colnum="1" colwidth="50%"/><colspec colname="col2" colnum="2" colwidth="50%"/><thead id="v113956566"><row id="v113956567"><entry colname="col1">
+                        <para>Option</para>
+                     </entry><entry colname="col2">
+                        <para>When and how to use it</para>
+                     </entry></row></thead><tbody id="v113956568"><row id="v113990702"><entry colname="col1">
+                        <para>Make sure that the correct policy is applied to the device</para>
+                     </entry><entry colname="col2">
+                        <para>Immediately. You can review this information on the details page for the device.</para>
+                     </entry></row><row id="v113956569"><entry colname="col1">
+                        <para>Make sure that all protection technologies are enabled</para>
+                     </entry><entry colname="col2">
+                        <para>Immediately. You can review this information on the details page for the device.</para>
+                        <para>
+                           See <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v112648451_v101064224" target="basefrm" title="How protection features works in Symantec Security Cloud">How protection features works in Symantec Security Cloud</a>
+                        </para>
+                     </entry></row><row id="v113956570"><entry colname="col1">
+                        <para>Check that the device is running the most current virus definitions</para>
+                     </entry><entry colname="col2">
+                        <para>If enabling protection technologies does not fix the problem.</para>
+                        <para>
+                            
+                        </para>
+                     </entry></row></tbody></tgroup></table><para id="v113956327">
+            See <a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v107096381_v101064224" target="basefrm" title="Device status">Device status</a>
+         </para><para id="v113956329">The command to run the full scan (Windows only) is <command moreinfo="none">Navw32.exe</command>.
+         </para><para id="v113956330">The following command-line switches are available:</para><informaltable id="v113956331"><tgroup cols="2" id="v113956332"><colspec colname="col1" colnum="1" colwidth="50%"/><colspec colname="col2" colnum="2" colwidth="50%"/><tbody id="v113956336"><row id="v113956337"><entry colname="col1">
+                        <para>/?</para>
+                     </entry><entry colname="col2">
+                        <para>Launches Help and terminates</para>
+                     </entry></row><row id="v113956338"><entry colname="col1">
+                        <para>/A</para>
+                     </entry><entry colname="col2">
+                        <para>Scans all drives</para>
+                     </entry></row><row id="v113956339"><entry colname="col1">
+                        <para>/S-</para>
+                     </entry><entry colname="col2">
+                        <para>Disables scans of subfolders</para>
+                     </entry></row><row id="v113956340"><entry colname="col1">
+                        <para>/BOOT</para>
+                     </entry><entry colname="col2">
+                        <para>Scans only the boot records</para>
+                     </entry></row><row id="v113956341"><entry colname="col1">
+                        <para>/QUICK</para>
+                     </entry><entry colname="col2">
+                        <para>Runs a quick scan (<guilabel moreinfo="none">Fix Now</guilabel>)</para>
+                     </entry></row><row id="v113956342"><entry colname="col1">
+                        <para>
+                           <replaceable>pathname</replaceable>\*[?]</para>
+                     </entry><entry colname="col2">
+                        <para>Scans all files that match the specified wild card</para>
+                     </entry></row><row id="v113956343"><entry colname="col1">
+                        <para>
+                           <replaceable>drive</replaceable> | <replaceable>folder</replaceable> | <replaceable>file</replaceable>
+                        </para>
+                     </entry><entry colname="col2">
+                        <para>Scans the specified drive, folder, or file</para>
+                     </entry></row></tbody></tgroup></informaltable><meta name="ProdID" value="SCSEM"/><meta name="build_date" date="09-23-2015, 5:51:08"/><meta name="shortproductname" value=""/></section>

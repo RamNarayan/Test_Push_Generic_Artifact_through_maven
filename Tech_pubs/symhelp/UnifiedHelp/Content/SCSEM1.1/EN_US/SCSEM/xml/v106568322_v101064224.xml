@@ -1,0 +1,24 @@
+<?xml-stylesheet href="makehtml.xsl" type="text/xsl"?><section id="v106568322" revision="09222015235924" vendor="referenced"><title id="v106568324">Checking device status<token>RD_about_DS_widget</token>
+         </title><para id="v110168658">The <guilabel moreinfo="none">Device Status</guilabel> widget lets you identify the devices that pose a security threat, so that you can take the necessary actions to mitigate the risks. </para><para id="v110318517">You can drill down to get more information about the devices in a particular state. For example, from the drill-down window, you can navigate to the <guilabel moreinfo="none">Groups, Users and Devices</guilabel> page to see all the compromised devices, sorted by operating system and version. When you review the list, you determine that an issue is specific to a particular version of Windows. In this case, you can use the <guilabel moreinfo="none">OS Distribution</guilabel> widget to see all devices that use that version of Windows and take the appropriate action to prevent an outbreak from spreading. 
+         </para><itemizedlist id="v106568358"><title id="v106568359">Possible device states are as follows: </title><listitem id="v106568360"><para id="v110999351">Pending
+               </para><para id="v111331932">Indicates that device enrollment and security scans are in progress.</para></listitem><listitem id="v110999352"><para id="v106568361">Secure</para><para id="v111331933">Indicates that the device complies with all security requirements.</para></listitem><listitem id="v106568378"><para id="v106568379">At Risk</para><para id="v111331934">Indicates issues on the device that require your attention. For example, virus definitions are outdated.</para></listitem><listitem id="v106568392"><para id="v106568393">Compromised</para><para id="v111331935">Indicates that the device is infected and requires immediate resolution.
+                  
+               </para><para id="v112638689">
+                  
+               </para></listitem></itemizedlist><para id="v107096383">
+            <xref xreflabel="Device status" linkend="v107096381" role="linkmoreinfo"/>
+         </para><para id="v110303839">
+            <xref xreflabel="Exporting data" linkend="v107003798" role="linkmoreinfo"/>
+         </para><para id="v110168659">
+            
+         </para><para id="v110168660">
+            
+         </para><para id="v110168661">
+            
+         </para><para id="v110168665">
+            <xref xreflabel="Tracking threat activity" linkend="v110168610" role="linkmoreinfo"/>
+         </para><para id="v110168667">
+            <xref xreflabel="Viewing OS distribution data" linkend="v106568325" role="linkmoreinfo"/>
+         </para><para id="v107003824">
+            <xref xreflabel="Monitoring your environment" linkend="v105330222" role="linkmoreinfo"/>
+         </para><div class="moreinfo"><p class="title">More Information</p><p><a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v107096381_v101064224" target="basefrm" title="Device status">Device status</a></p><p><a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v107003798_v101064224" target="basefrm" title="Exporting data">Exporting data</a></p><p><a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v110168610_v101064224" target="basefrm" title="Tracking threat activity">Tracking threat activity</a></p><p><a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v106568325_v101064224" target="basefrm" title="Viewing OS distribution data">Viewing OS distribution data</a></p><p><a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v105330222_v101064224" target="basefrm" title="Monitoring your environment">Monitoring your environment</a></p></div><meta name="ProdID" value="SCSEM"/><meta name="build_date" date="09-23-2015, 5:51:08"/><meta name="shortproductname" value=""/></section>

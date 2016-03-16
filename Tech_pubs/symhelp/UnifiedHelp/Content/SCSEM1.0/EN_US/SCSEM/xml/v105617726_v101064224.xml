@@ -1,0 +1,57 @@
+<?xml-stylesheet href="makehtml.xsl" type="text/xsl"?><section id="v105617726" revision="09232015041018" vendor="referenced"><title id="v105617727">Password protection settings<token>PDM_security_policy_pwd_complexity</token>
+         </title><para id="v102512577">The <guilabel moreinfo="none">Password Protection</guilabel> settings in a security policy let you enforce strong password protection. Exactly how the passwords are applied can vary by operating system. </para><para id="v110998907">For example, the minimum number of characters in a medium length password is different for Android and OS X. This setting ensures that a user can enroll different types of devices, and you can automatically protect them with an equally strong security policy.</para><note id="v102512589"><para id="v102512590">If you are using Azure AD Sync to manage your users, the Azure requirements always take precedence, and the password settings in the policy are ignored. </para></note><table id="v110320308"><title>Table: Password protection settings</title><tgroup cols="2" id="v110320310"><colspec colname="col1" colnum="1" colwidth="50%"/><colspec colname="col2" colnum="2" colwidth="50%"/><thead id="v110320313"><row id="v110320314"><entry colname="col1">
+                        <para>Setting</para>
+                     </entry><entry colname="col2">
+                        <para>Description</para>
+                     </entry></row></thead><tbody id="v110320315"><row id="v111381655"><entry colname="col1">
+                        <para>
+                           <guilabel moreinfo="none">Password required</guilabel>
+                        </para>
+                     </entry><entry colname="col2">
+                        <para>Lets you enable or disable the password protection.</para>
+                     </entry></row><row id="v110320316"><entry colname="col1">
+                        <para id="v102512580">
+                           <guilabel moreinfo="none">Length</guilabel>
+                        </para>
+                     </entry><entry colname="col2">
+                        <itemizedlist id="v101924246"><title>Specifies the minimum number of characters that are required. The exact values vary by device type: 
+                           </title><listitem id="v101924247"><para id="v101924248">Short</para><para>Windows, iOS, OS X, and Android: 4 characters</para></listitem><listitem id="v101924249"><para>Medium</para><para id="v101924250"> iOS and OS X: 4 characters</para><para>Windows and Android: 6 characters
+                              </para></listitem><listitem id="v101924251"><para>Long</para><para id="v101924252"> iOS, OS X, and Android: 6 characters</para><para>Windows: 8 characters</para></listitem></itemizedlist>
+                     </entry></row><row id="v110320317"><entry colname="col1">
+                        <para id="v102640424">
+                           <guilabel moreinfo="none">Complexity</guilabel>
+                        </para>
+                     </entry><entry colname="col2">
+                        <para id="v102640425">Specifies the types of characters required: numbers, letters, and special characters. The exact values vary by device type: 
+                        </para>
+                        <itemizedlist id="v102640427"><listitem id="v102640428"><para>Simple</para><para>iOS and OS X: Numbers only</para><para>Android: Numbers only</para><para>Windows: No enforcement</para></listitem><listitem id="v102640430"><para id="v102640431">Medium</para><para>iOS and OS X: Numbers only</para><para>Android: Numbers and letters</para><para>Windows: No enforcement</para></listitem><listitem id="v102640432"><para id="v102640433">Complex</para><para>iOS and OS X: Numbers, letters, and special characters</para><para>Windows and Android: Numbers, letters with at least one uppercase letter, and special characters</para></listitem></itemizedlist>
+                     </entry></row><row id="v110320318"><entry colname="col1">
+                        <para id="v102512584">
+                           <guilabel moreinfo="none">Expiration</guilabel>
+                        </para>
+                     </entry><entry colname="col2">
+                        <para id="v102640434">How long the same password can be used before it must be changed.</para>
+                     </entry></row><row id="v110320319"><entry colname="col1">
+                        <para id="v102640435">
+                           <guilabel moreinfo="none">Idle time</guilabel>
+                        </para>
+                     </entry><entry colname="col2">
+                        <para id="v102640436">How long an idle device remains unlocked. For example, a setting of 5 minutes means that if the user performs no activity on the device for five minutes, the device is locked, and a password is then required to unlock it. 
+                        </para>
+                     </entry></row><row id="v110320320"><entry colname="col1">
+                        <para id="v102640437">
+                           <guilabel moreinfo="none">Maximum failed attempts</guilabel>
+                        </para>
+                     </entry><entry colname="col2">
+                        <para id="v102640438">How many times a user can try to sign in after supplying the wrong password. For example, a setting of 4 means that the user can make 4 attempts before the user is locked out. </para>
+                     </entry></row><row id="v110320321"><entry colname="col1">
+                        <para id="v101924268">
+                           <guilabel moreinfo="none">Reuse limitations</guilabel>
+                        </para>
+                     </entry><entry colname="col2">
+                        <para id="v110172099">When a user updates the password, how many times a unique new password required before an old password can be reused.</para>
+                     </entry></row></tbody></tgroup></table><para id="v113956586">
+            <xref xreflabel="Policy overview" linkend="v110549694" role="linkmoreinfo"/>
+         </para><para id="v113956588">
+            <xref xreflabel="Configuring security policy settings" linkend="v110549650" role="linkmoreinfo"/>
+         </para><div class="moreinfo"><p class="title">More Information</p><p><a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v110549694_v101064224" target="basefrm" title="Policy overview">Policy overview</a></p><p><a role="seelink" href="../TopicLink.action?ProdId=SCSEM&amp;vid=v110549650_v101064224" target="basefrm" title="Configuring security policy settings">Configuring security policy settings</a></p></div><meta name="ProdID" value="SCSEM"/><meta name="build_date" date="09-23-2015, 5:51:08"/><meta name="shortproductname" value=""/></section>
